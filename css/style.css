@@ -1,0 +1,122 @@
+
+*{margin:0; padding:0;}
+body{
+    margin: 0;
+    padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header{width: 1366px;}
+nav {background: #5DBAFF;color: white;text-transform: uppercase;font-size: 15px;border-bottom: 5px solid #1c1c1c0d;}
+.container{
+}
+/*LEFT SIDE */
+.left-side{
+    width: 500px;
+    background: #5CBBFF;
+    float: left;
+    height: 700px;
+}
+.logo-light{
+    width: 100px;
+    padding: 75px 1px 34px 68px;
+}
+.side-bg{
+    width: 385px;
+    position: absolute;
+    top: 232px;
+    left: 52px;
+}
+/*LEFT  SIDE  END*/
+
+/*RIGHT SIDE*/
+.right-side{
+    background: #0092FF;
+    width: 849px;
+    float: right;
+    height: 700px;
+    color:white;
+}
+.log_in_form{
+    width: 471px;
+    margin: 0px 0px 1px 244px;
+    margin-top: 144px;
+}
+.reg-text{width: 80%;margin: 0px 0px 21px 90px;}
+.log_in_form h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.log_in_form p{
+    font-size: 16px;
+}
+.log_in_form span{}
+
+		/*FORM*/
+form{width: 37%;margin: auto;     width: 62%;}
+input{width: 270px;line-height:;margin-bottom: 8px;border: 0px solid;border-radius: 3px;}
+
+input[type=text]{}
+
+input[type=email]{}
+
+input[type=password]{}
+input[type=submit]{
+    width: 80px;
+    font-size: 14px;
+    font-weight: inherit;
+    color: #0092ff;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.write{
+		margin-bottom: 10px;
+		padding: 12px 10px 12px 15px;
+		width: 100%;
+		}
+.write::-webkit-input-placeholder { 
+ font-family: 'Oswald', sans-serif;
+}
+
+.write:-moz-placeholder { font-family: 'Oswald', sans-serif;
+  
+}
+.otherwise{}
+.otherwise span{
+    font-weight: 200;
+    font-size: 14px;
+}
+.otherwise p{
+    margin: 85px 0px 0px 89px;
+}
+.otherwise a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+
+/*RIGHT  SIDE  END*/
+.menu{
+    width: 780px;
+    margin: 0px 0px 8px 379px;
+    padding: 30px 0px 30px 26px;
+}
+
+.menuBar{list-style:none;width: 729px;padding: 0;margin: 0;display: inline-block;}
+.menuBar li{
+    padding: 0px 0px 1px 0px;
+    display: inline-block;
+}
+.menuBar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    font-weight: 400;
+}
+.menuBar img{
+    width: 115px;
+    margin: 0px 0px -7px 0px;
+}
+
+
